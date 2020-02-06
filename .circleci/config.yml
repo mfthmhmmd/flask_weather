@@ -58,5 +58,5 @@ workflows:
   version: 2
   my-workflow:
     jobs:
-      - run build:
+      - build:
           context: my-orgs
